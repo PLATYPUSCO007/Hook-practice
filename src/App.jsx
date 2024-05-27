@@ -1,12 +1,17 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
+import { FirstComponent } from "./Components/FirstComponent";
+import { SecondComponent } from "./Components/SecondComponent";
+import { Avatars } from "./Components/Avatars";
 
 function App() {
-  const [count, setCount] = useState(0);
 
-  return <></>;
+  return <div className='' width="100%" >
+  <h2>Hooks</h2>
+  <hr width="100%"/>
+  <FirstComponent />
+  <SecondComponent />
+  <Avatars />
+  </div>;
 }
 
 export default App;
